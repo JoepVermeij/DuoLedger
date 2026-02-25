@@ -1,15 +1,15 @@
-# DuoLedger: AI-Powered Dual-Account Financial Planner
+# PairLedger: AI-Powered Dual-Account Financial Planner
 
 ## Project Overview
-DuoLedger is a modern, AI-enhanced financial tracking application designed for couples, roommates, or co-managers. It solves the friction of managing shared expenses alongside personal finances by offering a unified dashboard with distinct "Individual" and "Shared" ledgers. 
+PairLedger is a modern, AI-enhanced financial tracking application designed for couples, roommates, or co-managers. It solves the friction of managing shared expenses alongside personal finances by offering a unified dashboard with distinct "Individual" and "Shared" ledgers. 
 
-By leveraging machine learning and advanced data analytics, DuoLedger goes beyond traditional budgeting apps to proactively identify cost-cutting opportunities and provide actionable insights on monthly spending habits.
+By leveraging machine learning and advanced data analytics, PairLedger goes beyond traditional budgeting apps to proactively identify cost-cutting opportunities and provide actionable insights on monthly spending habits.
 
 ## The Problem
 Managing shared finances traditionally requires either fully merged bank accounts or tedious manual reconciliation (e.g., splitting bills in spreadsheets). Existing solutions lack a seamless way to view personal financial health alongside shared obligations, and they rarely offer proactive, intelligent advice on optimizing expenses.
 
 ## The Solution
-DuoLedger provides a "Dual-Ledger" architecture. Users can maintain their autonomous personal ledger while seamlessly contributing to and tracking a shared ledger. The platform uses AI to analyze spending patterns across both ledgers, automatically categorizing transactions and suggesting areas for financial optimization.
+PairLedger provides a "Dual-Ledger" architecture. Users can maintain their autonomous personal ledger while seamlessly contributing to and tracking a shared ledger. The platform uses AI to analyze spending patterns across both ledgers, automatically categorizing transactions and suggesting areas for financial optimization.
 
 ## Core Features
 - **Dual-Wallet Architecture & Bank Sync:** Connect real bank accounts to automatically ingest and track transactions, while seamlessly toggling between or combining views for Individual and Shared ledgers.
@@ -20,7 +20,7 @@ DuoLedger provides a "Dual-Ledger" architecture. Users can maintain their autono
 
 ## Architecture & Technology Stack
 
-DuoLedger is built with a focus on scalability, type safety, and data integrityâ€”principles essential for modern FinTech applications.
+PairLedger is built with a focus on scalability, type safety, and data integrityâ€”principles essential for modern FinTech applications.
 
 ### Backend: Kotlin 
 - **Why:** Kotlin offers robust type safety, null-safety, and seamless JVM interoperability. It is a dominant language in modern Android and enterprise FinTech backend development, allowing for highly concurrent, scalable, and maintainable services.
@@ -30,8 +30,8 @@ DuoLedger is built with a focus on scalability, type safety, and data integrityâ
 - **Why:** Financial applications require strict ACID compliance and relational integrity. PostgreSQL provides enterprise-grade reliability, advanced concurrency control, and robust support for complex queries and JSONB data (useful for flexible AI metadata).
 - **Role:** Source of truth for users, ledger entries, shared ledger mappings, and historical analytics.
 
-### Frontend: React 
-- **Why:** React's component-based architecture ensures a highly responsive and modular user interface. It allows for rapid iteration of complex dashboards and data visualizations while maintaining a clean state-management lifecycle.
+### Frontend: Next.js + React + TypeScript
+- **Why:** Next.js builds on React's component-based architecture with server-side rendering, file-based routing, and built-in API proxying. TypeScript adds compile-time safety. Tailwind CSS provides rapid, consistent styling.
 - **Role:** Delivers the interactive monthly dashboards, data visualizations, and user input forms.
 
 ### AI Integration: LLM / OpenAI API
@@ -45,7 +45,7 @@ DuoLedger is built with a focus on scalability, type safety, and data integrityâ
 4. **Clean Code & Testability:** Maintain a high test coverage for ledger calculations using unit and integration testing frameworks.
 
 ## Roadmap (MVP)
-- [ ] **Phase 1: Foundation.** Setup Kotlin backend, PostgreSQL schema, and basic React scaffold.
+- [x] **Phase 1: Foundation.** Setup Kotlin backend, PostgreSQL schema, and basic Next.js scaffold.
 - [ ] **Phase 2: Core Ledger & Bank Sync.** Implement bank account connections for automated transaction ingestion, basic ledger CRUD operations, and the dynamic fixed/variable shared account calculator.
-- [ ] **Phase 3: Dashboard & Reporting.** Build the React frontend to display day-by-day budget pacing, month-over-month comparisons, and historical trends.
+- [ ] **Phase 3: Dashboard & Reporting.** Build the frontend to display day-by-day budget pacing, month-over-month comparisons, and historical trends.
 - [ ] **Phase 4: AI Intelligence.** Integrate the AI engine for transaction categorization, implement the user override feedback loop so AI learns from corrections, and generate the monthly cost-cutting report.
