@@ -1,10 +1,10 @@
-package com.pairledger.service
+package com.yooply.service
 
-import com.pairledger.dto.AuthResponse
-import com.pairledger.dto.LoginRequest
-import com.pairledger.dto.RegisterRequest
-import com.pairledger.model.User
-import com.pairledger.repository.UserRepository
+import com.yooply.dto.AuthResponse
+import com.yooply.dto.LoginRequest
+import com.yooply.dto.RegisterRequest
+import com.yooply.model.User
+import com.yooply.repository.UserRepository
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
 

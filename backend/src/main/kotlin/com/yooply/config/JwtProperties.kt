@@ -1,4 +1,4 @@
-package com.pairledger.config
+package com.yooply.config
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 

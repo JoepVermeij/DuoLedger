@@ -31,7 +31,7 @@ export default function LoginPage() {
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white">Welcome back</h1>
-          <p className="mt-2 text-slate-400">Sign in to PairLedger</p>
+          <p className="mt-2 text-slate-400">Sign in to Yooply</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

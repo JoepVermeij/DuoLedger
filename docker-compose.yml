@@ -1,25 +1,25 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: pairledger-postgres
+    container_name: yooply-postgres
     restart: unless-stopped
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-pairledger}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pairledger}
-      POSTGRES_DB: ${POSTGRES_DB:-pairledger}
+      POSTGRES_USER: ${POSTGRES_USER:-yooply}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-yooply}
+      POSTGRES_DB: ${POSTGRES_DB:-yooply}
     volumes:
       - pgdata:/var/lib/postgresql/data
 
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: pairledger-pgadmin
+    container_name: yooply-pgadmin
     restart: unless-stopped
     ports:
       - "5050:80"
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@pairledger.local
+      PGADMIN_DEFAULT_EMAIL: admin@yooply.dev
       PGADMIN_DEFAULT_PASSWORD: admin
     depends_on:
       - postgres

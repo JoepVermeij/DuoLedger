@@ -1,1 +1,1 @@
-rootProject.name = "pairledger"
+rootProject.name = "yooply"

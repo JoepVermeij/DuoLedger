@@ -1,4 +1,4 @@
-package com.pairledger.controller
+package com.yooply.controller
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

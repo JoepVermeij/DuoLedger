@@ -1,15 +1,15 @@
-# PairLedger: AI-Powered Dual-Account Financial Planner
+# Yooply: AI-Powered Dual-Account Financial Planner
 
 ## Project Overview
-PairLedger is a modern, AI-enhanced financial tracking application designed for couples, roommates, or co-managers. It solves the friction of managing shared expenses alongside personal finances by offering a unified dashboard with distinct "Individual" and "Shared" ledgers. 
+Yooply is a modern, AI-enhanced financial tracking application designed for couples, roommates, or co-managers. It solves the friction of managing shared expenses alongside personal finances by offering a unified dashboard with distinct "Individual" and "Shared" ledgers. 
 
-By leveraging machine learning and advanced data analytics, PairLedger goes beyond traditional budgeting apps to proactively identify cost-cutting opportunities and provide actionable insights on monthly spending habits.
+By leveraging machine learning and advanced data analytics, Yooply goes beyond traditional budgeting apps to proactively identify cost-cutting opportunities and provide actionable insights on monthly spending habits.
 
 ## The Problem
 Managing shared finances traditionally requires either fully merged bank accounts or tedious manual reconciliation (e.g., splitting bills in spreadsheets). Existing solutions lack a seamless way to view personal financial health alongside shared obligations, and they rarely offer proactive, intelligent advice on optimizing expenses.
 
 ## The Solution
-PairLedger provides a "Dual-Ledger" architecture. Users can maintain their autonomous personal ledger while seamlessly contributing to and tracking a shared ledger. The platform uses AI to analyze spending patterns across both ledgers, automatically categorizing transactions and suggesting areas for financial optimization.
+Yooply provides a "Dual-Ledger" architecture. Users can maintain their autonomous personal ledger while seamlessly contributing to and tracking a shared ledger. The platform uses AI to analyze spending patterns across both ledgers, automatically categorizing transactions and suggesting areas for financial optimization.
 
 ## Core Features
 - **Dual-Wallet Architecture & Bank Sync:** Connect real bank accounts to automatically ingest and track transactions, while seamlessly toggling between or combining views for Individual and Shared ledgers.
@@ -20,7 +20,7 @@ PairLedger provides a "Dual-Ledger" architecture. Users can maintain their auton
 
 ## Architecture & Technology Stack
 
-PairLedger is built with a focus on scalability, type safety, and data integrity—principles essential for modern FinTech applications.
+Yooply is built with a focus on scalability, type safety, and data integrity—principles essential for modern FinTech applications.
 
 ### Backend: Kotlin 
 - **Why:** Kotlin offers robust type safety, null-safety, and seamless JVM interoperability. It is a dominant language in modern Android and enterprise FinTech backend development, allowing for highly concurrent, scalable, and maintainable services.

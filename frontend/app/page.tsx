@@ -8,7 +8,7 @@ export default function Home() {
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-500 text-2xl font-bold">
             P
           </div>
-          <h1 className="text-5xl font-bold tracking-tight">PairLedger</h1>
+          <h1 className="text-5xl font-bold tracking-tight">Yooply</h1>
         </div>
 
         <p className="max-w-md text-lg text-slate-300">

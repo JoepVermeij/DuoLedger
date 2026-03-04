@@ -1,4 +1,4 @@
-# PairLedger
+# Yooply
 
 An AI-powered budgeting platform for couples to seamlessly manage joint and personal finances, featuring automated categorization and smart cost-cutting insights.
 
@@ -40,9 +40,9 @@ docker compose up -d
 ```bash
 brew install postgresql@16
 brew services start postgresql@16
-createuser -s pairledger
-createdb -O pairledger pairledger
-psql -c "ALTER USER pairledger WITH PASSWORD 'pairledger';" pairledger
+createuser -s yooply
+createdb -O yooply yooply
+psql -c "ALTER USER yooply WITH PASSWORD 'yooply';" yooply
 ```
 
 ### Backend

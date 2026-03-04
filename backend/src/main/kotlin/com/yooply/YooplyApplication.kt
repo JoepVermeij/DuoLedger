@@ -1,11 +1,11 @@
-package com.pairledger
+package com.yooply
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PairLedgerApplication
+class YooplyApplication
 
 fun main(args: Array<String>) {
-    runApplication<PairLedgerApplication>(*args)
+    runApplication<YooplyApplication>(*args)
 }

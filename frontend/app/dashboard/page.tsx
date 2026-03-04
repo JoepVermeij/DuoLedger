@@ -32,7 +32,7 @@ export default function DashboardPage() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-500 text-sm font-bold text-white">
               P
             </div>
-            <span className="text-lg font-semibold text-white">PairLedger</span>
+            <span className="text-lg font-semibold text-white">Yooply</span>
           </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-400">{user.email}</span>

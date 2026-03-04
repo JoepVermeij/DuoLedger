@@ -32,7 +32,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white">Create account</h1>
-          <p className="mt-2 text-slate-400">Get started with PairLedger</p>
+          <p className="mt-2 text-slate-400">Get started with Yooply</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

@@ -1,6 +1,6 @@
-package com.pairledger.repository
+package com.yooply.repository
 
-import com.pairledger.model.Partnership
+import com.yooply.model.Partnership
 import org.springframework.data.jpa.repository.JpaRepository
 import java.util.UUID
 

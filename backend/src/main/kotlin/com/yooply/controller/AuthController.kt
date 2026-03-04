@@ -1,9 +1,9 @@
-package com.pairledger.controller
+package com.yooply.controller
 
-import com.pairledger.dto.AuthResponse
-import com.pairledger.dto.LoginRequest
-import com.pairledger.dto.RegisterRequest
-import com.pairledger.service.AuthService
+import com.yooply.dto.AuthResponse
+import com.yooply.dto.LoginRequest
+import com.yooply.dto.RegisterRequest
+import com.yooply.service.AuthService
 import jakarta.validation.Valid
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

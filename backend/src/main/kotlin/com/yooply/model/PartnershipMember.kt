@@ -1,4 +1,4 @@
-package com.pairledger.model
+package com.yooply.model
 
 import jakarta.persistence.*
 import java.time.Instant

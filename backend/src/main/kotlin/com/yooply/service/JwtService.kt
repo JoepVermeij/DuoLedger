@@ -1,6 +1,6 @@
-package com.pairledger.service
+package com.yooply.service
 
-import com.pairledger.config.JwtProperties
+import com.yooply.config.JwtProperties
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.security.Keys

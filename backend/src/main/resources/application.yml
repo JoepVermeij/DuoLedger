@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:pairledger}
-    username: ${POSTGRES_USER:pairledger}
-    password: ${POSTGRES_PASSWORD:pairledger}
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:yooply}
+    username: ${POSTGRES_USER:yooply}
+    password: ${POSTGRES_PASSWORD:yooply}
     driver-class-name: org.postgresql.Driver
 
   jpa:

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PairLedger",
+  title: "Yooply",
   description: "AI-powered dual-account financial planner for couples",
 };
 
